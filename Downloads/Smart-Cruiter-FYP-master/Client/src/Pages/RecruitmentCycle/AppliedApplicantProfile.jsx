@@ -18,7 +18,7 @@ function AppliedApplicantProfile({ id }) {
     const fetchData = () => {
       // axios POST request
       const options = {
-        url: "http://localhost:8080/details/active/user",
+        url: "https://smart-cruiter-1.onrender.com/details/active/user",
         method: "POST",
         headers: {
           Accept: "application/json",

@@ -8,7 +8,7 @@ function PostedJobs() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        "http://localhost:8080/job/get-all-jobs"
+        "https://smart-cruiter-1.onrender.com/job/get-all-jobs"
       );
       setData(response.data.fetchAllPostedJobs);
     };

@@ -117,7 +117,7 @@ function PostedJobApplyForm() {
     };
     // console.log(userData);
     const options = {
-      url: "http://localhost:8080/job/apply-to-job",
+      url: "https://smart-cruiter-1.onrender.com/job/apply-to-job",
       method: "POST",
       headers: {
         Accept: "application/json",

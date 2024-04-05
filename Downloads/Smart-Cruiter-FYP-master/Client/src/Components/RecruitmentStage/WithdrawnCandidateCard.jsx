@@ -16,7 +16,7 @@ function WithdrawnCandidateCard({ id }) {
   useEffect(() => {
     const getCandidates = async () => {
       const options = {
-        url: "http://localhost:8080/details/active/withdrawn",
+        url: "https://smart-cruiter-1.onrender.com/details/active/withdrawn",
         method: "POST",
         headers: {
           Accept: "application/json",

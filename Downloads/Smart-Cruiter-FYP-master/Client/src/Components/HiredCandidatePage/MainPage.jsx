@@ -9,7 +9,7 @@ function MainPage() {
     const fetchData = () => {
       // axios POST request
       const options = {
-        url: "http://localhost:8080/job/get-jobs",
+        url: "https://smart-cruiter-1.onrender.com/job/get-jobs",
         method: "POST",
         headers: {
           Accept: "application/json",

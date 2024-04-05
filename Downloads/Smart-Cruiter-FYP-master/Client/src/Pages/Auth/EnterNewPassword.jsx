@@ -37,7 +37,7 @@ function EnterNewPassword() {
     convertValues();
     const password = pass.confirmpwd;
     const options = {
-      url: "http://localhost:8080/new-password",
+      url: "https://smart-cruiter-1.onrender.com/new-password",
       method: "POST",
       headers: {
         Accept: "application/json",

@@ -12,7 +12,7 @@ function DeleteCandidateProfileButton({ id }) {
   const handleDeleteButton = async () => {
     // axios POST request
     const options = {
-      url: "http://localhost:8080/details/active/user/delete",
+      url: "https://smart-cruiter-1.onrender.com/details/active/user/delete",
       method: "DELETE",
       headers: {
         Accept: "application/json",

@@ -17,7 +17,7 @@ function JobDetails() {
       // dispath(startFetchingCandidatesData());
       // axios POST request
       const options = {
-        url: "http://localhost:8080/details/active/applied",
+        url: "https://smart-cruiter-1.onrender.com/details/active/applied",
         method: "POST",
         headers: {
           Accept: "application/json",

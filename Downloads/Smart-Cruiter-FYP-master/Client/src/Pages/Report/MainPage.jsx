@@ -76,7 +76,7 @@ function MainPage() {
   useEffect(() => {
     const getCandidates = async () => {
       const options = {
-        url: "http://localhost:8080/report/main",
+        url: "https://smart-cruiter-1.onrender.com/report/main",
         method: "POST",
         headers: {
           Accept: "application/json",

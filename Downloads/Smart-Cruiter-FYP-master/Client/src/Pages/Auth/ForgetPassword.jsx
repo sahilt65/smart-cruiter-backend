@@ -20,7 +20,7 @@ function ForgetPassword() {
   const handleLogin = async (inputData) => {
     console.log(" i am going to run");
     const options = {
-      url: "http://localhost:8080/forget-password",
+      url: "https://smart-cruiter-1.onrender.com/forget-password",
       method: "POST",
       headers: {
         Accept: "application/json",

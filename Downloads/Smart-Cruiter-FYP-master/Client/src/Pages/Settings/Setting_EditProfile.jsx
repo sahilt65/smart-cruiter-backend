@@ -44,7 +44,7 @@ function Setting_EditProfile() {
       formData.append("userId", org_id); // Replace userId with the actual user ID
 
       axios
-        .post("http://localhost:8080/settings/updateProfile", formData)
+        .post("https://smart-cruiter-1.onrender.com/settings/updateProfile", formData)
         .then((response) => {
           console.log(response.data);
         })
@@ -88,7 +88,7 @@ function Setting_EditProfile() {
 
     axios
       .post(
-        "http://localhost:8080/settings/updateProfileData",
+        "https://smart-cruiter-1.onrender.com/settings/updateProfileData",
         {
           inputValue,
           org_id : "660f4e21d5471a507c6075d7"

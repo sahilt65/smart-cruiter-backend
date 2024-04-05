@@ -51,7 +51,7 @@ function PostJob() {
   const handleSubmit = async () => {
     // axios POST request
     const options = {
-      url: "http://localhost:8080/job/post",
+      url: "https://smart-cruiter-1.onrender.com/job/post",
       method: "POST",
       headers: {
         Accept: "application/json",

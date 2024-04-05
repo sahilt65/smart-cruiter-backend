@@ -54,7 +54,7 @@ function Registration() {
 
   const handleRegitser = async (inputData) => {
     const options = {
-      url: "http://localhost:8080/register",
+      url: "https://smart-cruiter-1.onrender.com/register",
       method: "POST",
       headers: {
         Accept: "application/json",

@@ -25,7 +25,7 @@ function VerifyOPT() {
     };
     convertValues();
     const options = {
-      url: "http://localhost:8080/verify-forget-pwd",
+      url: "https://smart-cruiter-1.onrender.com/verify-forget-pwd",
       method: "POST",
       headers: {
         Accept: "application/json",

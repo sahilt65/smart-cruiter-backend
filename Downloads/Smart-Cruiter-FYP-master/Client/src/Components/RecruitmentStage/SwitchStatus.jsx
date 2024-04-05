@@ -28,7 +28,7 @@ function SwitchStatus({ id }) {
   const handleStatus = () => {
     // axios POST request
     const options = {
-      url: "http://localhost:8080/details/active/user/updateStatus",
+      url: "https://smart-cruiter-1.onrender.com/details/active/user/updateStatus",
       method: "POST",
       headers: {
         Accept: "application/json",

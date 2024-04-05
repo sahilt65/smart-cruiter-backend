@@ -12,7 +12,7 @@ function MainAreaOfHiredCandidateDetails() {
     const fetchAllInterviewingCanidate = () => {
       // axios POST request
       const options = {
-        url: "http://localhost:8080/details/active/hired",
+        url: "https://smart-cruiter-1.onrender.com/details/active/hired",
         method: "POST",
         headers: {
           Accept: "application/json",

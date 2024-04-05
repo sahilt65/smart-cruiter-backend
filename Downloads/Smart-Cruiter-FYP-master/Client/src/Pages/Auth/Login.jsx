@@ -27,7 +27,7 @@ function Login() {
   // -> handle login api call
   const handleLogin = async (inputData) => {
     const options = {
-      url: "http://localhost:8080/login",
+      url: "https://smart-cruiter-1.onrender.com/login",
       method: "POST",
       headers: {
         Accept: "application/json",

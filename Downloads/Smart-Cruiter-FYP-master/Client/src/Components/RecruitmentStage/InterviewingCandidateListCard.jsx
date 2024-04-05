@@ -11,7 +11,7 @@ function InterviewingCandidateListCard({ id }) {
     const fetchAllInterviewingCanidate = () => {
       // axios POST request
       const options = {
-        url: "http://localhost:8080/details/active/interviewing",
+        url: "https://smart-cruiter-1.onrender.com/details/active/interviewing",
         method: "POST",
         headers: {
           Accept: "application/json",

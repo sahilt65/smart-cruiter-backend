@@ -15,7 +15,7 @@ function ReccomendedCandidateDetailsCard({ id, user, SetUser, setID }) {
     const getCanidateDetails = () => {
       // axios POST request
       const options = {
-        url: "http://localhost:8080/details/active/reccomended/details",
+        url: "https://smart-cruiter-1.onrender.com/details/active/reccomended/details",
         method: "POST",
         headers: {
           Accept: "application/json",

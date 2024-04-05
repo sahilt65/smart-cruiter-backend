@@ -12,7 +12,7 @@ function TopNavigationBar({ title }) {
   useEffect(() => {
     // axios POST request
     const options = {
-      url: "http://localhost:8080/getProfilePic",
+      url: "https://smart-cruiter-1.onrender.com/getProfilePic",
       method: "POST",
       headers: {
         Accept: "application/json",

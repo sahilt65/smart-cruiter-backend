@@ -23,7 +23,7 @@ function HomePage() {
   const CheckAuth = async () => {
     axios
       .post(
-        "http://localhost:8080/home",
+        "https://smart-cruiter-1.onrender.com/home",
         {},
         {
           headers: {
@@ -49,7 +49,7 @@ function HomePage() {
     dispatch(fetchOrganizationDataStart());
 
     axios
-      .post("http://localhost:8080/dashboard", {
+      .post("https://smart-cruiter-1.onrender.com/dashboard", {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json;charset=UTF-8",
