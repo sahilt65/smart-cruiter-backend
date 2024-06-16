@@ -1,0 +1,1 @@
+{"name":"Local: 1879C","url":"/Users/sahil/SE - 11/codeforces/1879C.cpp","tests":[{"id":1718440747746,"input":"3\n10010\n111\n0101","output":"1 2\n2 6\n0 1"},{"id":1718440817330,"input":"1\n1000101011000","output":"5 2160"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sahil/SE - 11/codeforces/1879C.cpp","group":"local","local":true}
